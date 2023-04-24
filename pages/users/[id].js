@@ -4,7 +4,7 @@ import MainContainer from "../../components/MainContainer";
 
 export default function ({user}){
     return(
-        <MainContainer keywords={user.name}>
+        <MainContainer keywords={user.name} title={"User"}>
             <h1>Пользователь с id = {user.id}</h1>
             <h2>Имя пользователя - {user.name}</h2>
         </MainContainer>

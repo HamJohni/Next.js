@@ -5,7 +5,7 @@ import MainContainer from "../components/MainContainer";
 
 const Users = ({users}) => {
     return (
-        <MainContainer keywords={"users page"}>
+        <MainContainer keywords={"users page"} title={'Пользователи'}>
             <h1 className={styles.list}>Список пользователей</h1>
             <ul>
                 {users.map(item =>

@@ -1,12 +1,12 @@
 import Link from "./Link";
 import Head from "next/head";
 
-const MainContainer = ({children, keywords}) => {
+const MainContainer = ({children, keywords,title}) => {
     return(
         <>
             <Head>
                 <meta keywords={"Zhanybek, Erjan" + keywords}></meta>
-                <title>Главная страница</title>
+                <title>{title}</title>
             </Head>
 
             <div className="nav">
